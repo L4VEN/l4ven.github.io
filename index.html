@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LAVEN</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Inter&display=swap"
+      rel="stylesheet"
+    />
+    <link href="styles.css" rel="stylesheet" />
+  </head>
+  <body>
+    <script src="app.js"></script>
+    <header class="sizing">
+      <nav>
+        <li><a onclick="movePage('main')" class="">Home</a></li>
+        <li>
+          <a class="" onclick="movePage('about')">About</a>
+        </li>
+        <li>
+          <a class="" onclick="movePage('projects')">Projects</a>
+        </li>
+      </nav>
+      <h2 id="logo">
+        <a href="#"><img src="img/logo.svg" /></a>
+      </h2>
+    </header>
+    <div id="main" class="page">
+      <div class="sizing">
+        <div id="introduce">
+          <div class="int_hi">Hi,</div>
+          <span class="int_im">I am</span>
+          <span class="int_laven">Han Kang</span>
+          <span class="int_sp">,</span>
+          <div class="int_web">Web Developer</div>
+          <div class="int_design">#gbsw #3rd #laven</div>
+        </div>
+        <div id="contact">
+          <a href="https://github.com/L4VEN" class="icon" target="_blank"
+            ><img src="img/github.svg"
+          /></a>
+          <a
+            href="https://www.instagram.com/1ave.n/"
+            class="icon"
+            target="_blank"
+            ><img src="img/instagram.svg"
+          /></a>
+          <a
+            href="https://discord.com/users/536079116450004993"
+            class="icon"
+            target="_blank"
+            ><img src="img/discord.svg"
+          /></a>
+        </div>
+      </div>
+      <div class="arrow" onclick="movePage('about')">
+        <a><img src="img/arrow.svg" alt="" /></a>
+      </div>
+    </div>
+
+    <div id="about" class="page">
+      <div class="sizing">
+        <div class="title">About Me</div>
+        <span><img src="img/about_line.png" width="162px" /></span>
+        <div>
+          <div class="about_me">
+            A 16-year-old developer who wants to become a full-stack engineer<br />
+            specializing in front-end development.<br />I make it my mission to
+            develop pixel-perfect websites that runs very fast.<br /><br />
+            안녕하세요, 프론트엔드 개발자가 되기를 희망하는 16세 강한입니다.<br />
+            저는 매우 빠르게 실행되는 완벽한-픽셀 웹사이트를 개발하는 것을
+            사명으로 삼고 있습니다. <br />
+            CSS와 JS를 이용해 사이트에 모션을 주어 생동감을 더하는 것에 관심이
+            많으며,<br />
+            빠른 실력 발전과 능숙한 언어 사용을 위해 꾸준히 공부하고 있습니다.
+          </div>
+          <div id="Skills">Skills</div>
+          <div>
+            <a title="HTML5"
+              ><img src="img/skills/html.png" class="skillicon"
+            /></a>
+            <a title="CSS3"
+              ><img src="img/skills/css.png" class="skillicon"
+            /></a>
+            <a title="JavaScript"
+              ><img src="img/skills/js.png" class="skillicon"
+            /></a>
+            <a title="React"
+              ><img src="img/skills/react.png" class="skillicon"
+            /></a>
+            <a title="TypeScript"
+              ><img src="img/skills/ts.png" class="skillicon"
+            /></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="projects" class="page">
+      <div class="sizing">
+        <div class="title">Projects</div>
+        <span><img src="img/project_line.png" width="141px" /></span>
+        <div class="my_projects"></div>
+      </div>
+    </div>
+    <div class="footer">
+      <a href="" class="tada">🎉</a>
+    </div>
+  </body>
+</html>
