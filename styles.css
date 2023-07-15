@@ -163,6 +163,7 @@ nav a {
 }
 .about_me {
   margin-top: 20px;
+  white-space: normal;
   font-family: "GmarketSansLight";
   color: #bbb;
   line-height: 2;
@@ -183,8 +184,16 @@ nav a {
   transition: cubic-bezier(0.3, 0, 0.4, 1) 0.25s;
 }
 @media (max-width: 850px) {
+  #introduce,
+  .icon {
+    font-size: 50px;
+  }
   .sizing {
     width: auto;
+    padding-left: 10px;
+  }
+  .about_me {
+    font-size: 12px;
   }
   nav {
     display: none;
