@@ -1,1 +1,1 @@
-just my portfolio. thats it
+just my portfolio
