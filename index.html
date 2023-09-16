@@ -9,10 +9,11 @@
       rel="stylesheet"
     />
     <link rel="icon" href="img/favicon.svg" />
-    <link href="styles.css" rel="stylesheet" />
+    <link rel="preload" as="style" href="styles.css" 
+      onload="this.onload=null;this.rel='stylesheet'">
   </head>
   <body>
-    <script src="app.js"></script>
+    <script defer src="app.js"></script>
     <header class="sizing">
       <nav>
         <li><a onclick="movePage('main')" class="">Home</a></li>
